@@ -1,0 +1,38 @@
+2018/12/14 16:07:54 [notice] 2971#2971: using the "epoll" event method
+2018/12/14 16:07:54 [notice] 2971#2971: openresty/1.13.6.2
+2018/12/14 16:07:54 [notice] 2971#2971: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) 
+2018/12/14 16:07:54 [notice] 2971#2971: OS: Linux 3.10.0-514.el7.x86_64
+2018/12/14 16:07:54 [notice] 2971#2971: getrlimit(RLIMIT_NOFILE): 65535:65535
+2018/12/14 16:07:54 [notice] 2972#2972: start worker processes
+2018/12/14 16:07:54 [notice] 2972#2972: start worker process 2973
+2018/12/14 16:07:55 [info] 2973#2973: *2 [lua] db.lua:40: query(): reused_times:0 sql:select * from fake_task where status=1 and times_need > times_finish and end_time > '2018-12-14 16:07:55' and start_time < '2018-12-14 16:07:55', context: ngx.timer
+2018/12/14 16:07:55 [info] 2973#2973: *2 [lua] task_cache.lua:16: get valid task:  {}, context: ngx.timer
+2018/12/14 16:07:55 [info] 2973#2973: *2 [lua] task_cache.lua:83: update(): task cfg {}, context: ngx.timer
+2018/12/14 16:07:55 [info] 2973#2973: *2 [lua] task_cache.lua:90: update(): no cfg, context: ngx.timer
+2018/12/14 16:08:04 [error] 2973#2973: *4 [lua] init_worker.lua:7: +++++++++++++++=== cal_limit , context: ngx.timer
+2018/12/14 16:08:04 [info] 2973#2973: *4 [lua] init_worker.lua:24: few key in cache, context: ngx.timer
+2018/12/14 16:08:14 [error] 2973#2973: *5 [lua] init_worker.lua:7: +++++++++++++++=== cal_limit , context: ngx.timer
+2018/12/14 16:08:14 [info] 2973#2973: *5 [lua] init_worker.lua:24: few key in cache, context: ngx.timer
+2018/12/14 16:08:24 [error] 2973#2973: *6 [lua] init_worker.lua:7: +++++++++++++++=== cal_limit , context: ngx.timer
+2018/12/14 16:08:24 [info] 2973#2973: *6 [lua] init_worker.lua:24: few key in cache, context: ngx.timer
+2018/12/14 16:08:34 [error] 2973#2973: *7 [lua] init_worker.lua:7: +++++++++++++++=== cal_limit , context: ngx.timer
+2018/12/14 16:08:34 [info] 2973#2973: *7 [lua] init_worker.lua:24: few key in cache, context: ngx.timer
+2018/12/14 16:08:44 [error] 2973#2973: *8 [lua] init_worker.lua:7: +++++++++++++++=== cal_limit , context: ngx.timer
+2018/12/14 16:08:44 [info] 2973#2973: *8 [lua] init_worker.lua:24: few key in cache, context: ngx.timer
+2018/12/14 16:08:54 [info] 2973#2973: *9 [lua] db.lua:40: query(): reused_times:0 sql:select * from fake_task where status=1 and times_need > times_finish and end_time > '2018-12-14 16:08:54' and start_time < '2018-12-14 16:08:54', context: ngx.timer
+2018/12/14 16:08:54 [info] 2973#2973: *9 [lua] task_cache.lua:36: get valid task:  {}, context: ngx.timer
+2018/12/14 16:08:54 [info] 2973#2973: *9 [lua] task_cache.lua:83: update(): task cfg {}, context: ngx.timer
+2018/12/14 16:08:54 [info] 2973#2973: *9 [lua] task_cache.lua:90: update(): no cfg, context: ngx.timer
+2018/12/14 16:08:54 [error] 2973#2973: *11 [lua] init_worker.lua:7: +++++++++++++++=== cal_limit , context: ngx.timer
+2018/12/14 16:08:54 [info] 2973#2973: *11 [lua] init_worker.lua:24: few key in cache, context: ngx.timer
+2018/12/14 16:09:04 [error] 2973#2973: *12 [lua] init_worker.lua:7: +++++++++++++++=== cal_limit , context: ngx.timer
+2018/12/14 16:09:04 [info] 2973#2973: *12 [lua] init_worker.lua:24: few key in cache, context: ngx.timer
+2018/12/14 16:09:14 [error] 2973#2973: *13 [lua] init_worker.lua:7: +++++++++++++++=== cal_limit , context: ngx.timer
+2018/12/14 16:09:14 [info] 2973#2973: *13 [lua] init_worker.lua:24: few key in cache, context: ngx.timer
+2018/12/14 16:09:19 [notice] 3454#3454: signal process started
+2018/12/14 16:09:19 [notice] 2972#2972: signal 15 (SIGTERM) received from 3454, exiting
+2018/12/14 16:09:19 [notice] 2973#2973: exiting
+2018/12/14 16:09:19 [notice] 2973#2973: exit
+2018/12/14 16:09:19 [notice] 2972#2972: signal 17 (SIGCHLD) received from 2973
+2018/12/14 16:09:19 [notice] 2972#2972: worker process 2973 exited with code 0
+2018/12/14 16:09:19 [notice] 2972#2972: exit

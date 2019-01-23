@@ -1,0 +1,19 @@
+一、安装openresty
+参考 http://openresty.org/cn/linux-packages.html
+sudo yum install yum-utils
+sudo yum-config-manager --add-repo https://openresty.org/package/centos/openresty.repo
+sudo yum install openresty
+
+二、安装程序
+将安装包fake.tar.gz上传到安装目录并解压，目录下start.sh为启动脚本，stop.sh为停止脚本，reload.sh为平滑重启脚本
+
+
+
+三、配置程序
+1、conf/nginx.conf
+worker_processes  为进程数量，按需要跳
+server.listen为监听端口，注意路径/metrics为监控的路径。
+
+2、app/config/config.lua
+配置redis和数据库地址
+
